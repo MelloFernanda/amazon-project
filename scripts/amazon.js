@@ -29,7 +29,7 @@ products.forEach((product)=>{
         $${formatCurrency(product.priceCents)}
         </div>
 
-        <div class="product-quantity-container">git
+        <div class="product-quantity-container">
         <select>
             <option selected value="1">1</option>
             <option value="2">2</option>
@@ -51,7 +51,7 @@ products.forEach((product)=>{
         Added
         </div>
 
-        <button class="add-to-cart-button button-primary js-add-to-cart" data-product-name="${product.id}">
+        <button class="add-to-cart-button button-primary js-add-to-cart" data-product-id="${product.id}">
         Add to Cart
         </button>
     </div>
